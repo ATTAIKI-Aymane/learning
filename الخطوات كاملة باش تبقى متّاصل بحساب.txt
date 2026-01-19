@@ -1,0 +1,58 @@
+الخطوات كاملة باش تبقى متّاصل بحسابك GitHub
+
+
+
+🟢 1️⃣ التحقق من Git (مرة وحدة)
+git --version
+
+🟢 2️⃣ ربط Git بهويتك (مرة وحدة فقط)
+git config --global user.name "Aymane Attaiki"
+git config --global user.email "aymane.attaiki@gmail.com"
+
+تأكد
+git config --global --list
+
+🟢 3️⃣ تسجيل الدخول مع GitHub (باش تبقى متّاصل)
+الطريقة السهلة (موصى بها) 🔐
+git config --global credential.helper manager
+
+🟢 5️⃣ تحضير المشروع محلياً
+
+دخل للفولدر لي فيه الملفات:
+cd C:\Users\Admin\Desktop\LEARNING
+ ls  -Force
+
+إلى ما كانش فيه git:
+git init
+
+🟢 6️⃣ إضافة الملفات (اختار شنو تبغي)
+
+📌 غير ملف واحد:
+git add test.html
+
+📌 أو كلشي:
+git add .
+
+🟢 7️⃣ Commit
+git commit -m "First commit"
+
+🟢 8️⃣ ربط المشروع بـ GitHub
+git remote add origin https://github.com/ATTAIKI-Aymane/learning.git
+
+تأكد
+git remote -v
+
+🟢 9️⃣ Push (أول مرة)
+git branch -M main
+git push -u origin main
+
+🔁 من بعد (كل مرة بغيت دير تحديث)
+git add .
+git commit -m "update"
+git push
+
+Rename file in Git
+git mv oldname.html newname.html
+
+Delete the file 
+git rm filename
