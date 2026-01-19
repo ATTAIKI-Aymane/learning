@@ -1,8 +1,0 @@
-
-{
-    "name": "learning/php-poo-tp",
-    "autoload": {
-        "psr-4": { "App\\": "src/" }
-    },
-    "require": {}
-}
